@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="main-style silkscreen-regular">
+  <div class="main-style">
     <h1>Wordle with Friends</h1>
   </div>
 </template>
@@ -10,16 +10,9 @@
 .main-style {
   background-color: var(--background-color);
   color: var(--text-color);
-}
-.silkscreen-regular {
-  font-family: 'Silkscreen', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.silkscreen-bold {
-  font-family: 'Silkscreen', sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
 </style>
