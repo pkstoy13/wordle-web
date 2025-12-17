@@ -1,5 +1,5 @@
-import MainMenu from '@/components/MainMenu.vue'
-import PlayPage from '@/components/PlayPage.vue'
+import MainMenu from '@/components/Menu/MainMenu.vue'
+import PlayPage from '@/components/Game/PlayPage.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({

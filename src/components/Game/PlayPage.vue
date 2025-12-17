@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import NavBar from './NavBar.vue'
+import NavBar from '../NavBar.vue'
+import GameLogic from './GameLogic.vue'
 </script>
 
 <template>
   <NavBar />
-  <div class="title">Welcome to Play Page</div>
+  <GameLogic />
 </template>
 
 <style scoped>
